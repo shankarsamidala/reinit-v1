@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-    eslint: {
+  eslint: {
     ignoreDuringBuilds: true,
   },
+  output: 'standalone',
+  // Remove the experimental config that's causing the error
 };
 
 export default nextConfig;
