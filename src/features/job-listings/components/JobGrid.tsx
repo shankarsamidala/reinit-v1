@@ -73,7 +73,7 @@ export default function JobGrid({ jobs, filters, onShowMobileFilters, onFiltersC
   const handleRemoveFilter = (filterType: string, value?: string) => {
     if (!onFiltersChange) return;
 
-    let newFilters = { ...filters };
+    const newFilters = { ...filters };
 
     switch (filterType) {
       case 'jobType':

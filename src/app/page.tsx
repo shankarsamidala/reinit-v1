@@ -3,7 +3,6 @@ import Footer from '@/shared/components/layout/Footer';
 import FeaturedJobsCarousel from '@/features/job-listings/components/FeaturedJobsCarousel';
 import JobSearchPage from '@/features/job-search/components/JobSearchPage';
 import { featuredJobs } from '@/core/data/allJobs';
-import JobCategoriesChips from '@/features/job-categories/components/JobCategoriesChips';
 
 export default function Home() {
   return (
